@@ -1,10 +1,10 @@
-# frontend-portfolio-project
+# front-end-portfolio-project
 
 
 
-# My Awesome Web App
+# Sabri's Portfolio
 
-Sabri's Portfolio
+
 This is a simple portfolio website built using HTML, CSS, and JavaScript. The website consists of two pages: the homepage and the about page.
 
 
@@ -18,7 +18,7 @@ When the contact form is submitted, the data is validated, and if it's valid, it
 
 ## Setup
 
-1. Clone the repository to your local machine using the following command:   `git clone https://github.com/{YOUR_GITHUB_USERNAME}/portfolio.git`
+1. Clone the repository to your local machine using the following command:   `git clone https://github.com/sabrimohiuddin/frontend-portfolio-project`
 
 2. Open the index.html and about.html files in your web browser to view the website.
 3. To make API requests, you may need to install the node-fetch package by running the following command: `npm install node-fetch`
