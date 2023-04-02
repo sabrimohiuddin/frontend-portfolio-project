@@ -1,3 +1,6 @@
+
+
+
 const url = "https://pokeapi.co/api/v2/pokemon/6"
 const p = document.querySelector(".fav-Pokemon")
 
