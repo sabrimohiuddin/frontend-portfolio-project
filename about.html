@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,19 +8,22 @@
     <script defer src="scripts.js"></script>
     <script defer src="form.js"></script>
     <script defer src="jokes.js"></script>
-
+    <script defer src="extra.js"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
     <div class="container">
       <div>
         <div class="grid-container">
           <h1>About me</h1>
+          
           <ul>
             <li>Name: Sabri Mohiuddin</li>
-            <li>Profession: Full stack Web Development Fellow</li>
+            <li>Profession: Full stack Web Developer Fellow</li>
             <li>Technical Skills: JavaScript, HTML, CSS</li>
           </ul>
+
           <form id="my-form">
             <h2>Contact me</h2>
             <label for="name-form">Name:</label>
@@ -34,16 +35,19 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea>
             <br />
-            <input type="submit" value="Send"/>
+            <button type="submit">Send</button>
           </form>
-          <div id="post-title"></div>
-
+          <!-- <div class="info-container">
+            <div id="post-title"></div>
+            <div id="movie-title"></div>
+          </div> -->
         </div>
         <a href="index.html" class="back-to-home">Click here to go back to homepage</a>
       </div>
     </div>
   </body>
 </html>
+
 
 
 
