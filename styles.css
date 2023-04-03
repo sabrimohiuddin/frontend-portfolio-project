@@ -128,3 +128,14 @@ ul li:hover {
     margin-top: 1rem;
   }
 }
+
+#post-title {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#post-title.loaded {
+  opacity: 1;
+}
+
+

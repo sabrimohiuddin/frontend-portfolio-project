@@ -1,7 +1,3 @@
-
-
-
-
 const getJokeBtn = document.getElementById("get-joke-btn");
 
 getJokeBtn.addEventListener("click", async () => {
@@ -18,3 +14,6 @@ getJokeBtn.addEventListener("click", async () => {
     console.error("Error:", error);
   }
 });
+
+
+
